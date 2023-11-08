@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.conteiner-body {
+  background-color: #f4e7d4; }
+  .conteiner-body .foto-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; }
+  .conteiner-body .conteiner-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .conteiner-body .conteiner-boton .boton-inicio {
+      width: 16rem;
+      height: 3rem;
+      border-radius: 4.375rem; }
+      .conteiner-body .conteiner-boton .boton-inicio .conocenos {
+        list-style: none;
+        text-decoration: none;
+        font-size: .9375rem;
+        font-weight: bold; }

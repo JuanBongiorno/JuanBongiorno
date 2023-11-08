@@ -1,0 +1,17 @@
+{
+  "name": "pre-proyecto",
+  "version": "1.0.0",
+  "description": "Hola, soy Juan Bongiorno y este es mi primer proyecto de sitio web el cual contiene elmentos de html, css, bootstrap entre otros.\r El proyecto trata sobre un vivero, todavia falta pulir ciertos html y ajustar algunas cosas, la idea principal es esa.\r un saludo y espero les guste!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
