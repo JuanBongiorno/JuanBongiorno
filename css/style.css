@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Agbalumo&family=Alegreya&family=Alegreya+Sans+SC:ital,wght@1,700&family=Cinzel:wght@400;500;600&family=Croissant+One&family=Martian+Mono:wght@200&family=Montserrat:wght@100;200;300&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Rubik:ital,wght@1,300&family=Space+Mono&family=Yellowtail&display=swap");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Reboto'; }
 
 .conteiner-body {
   background-color: #f4e7d4; }
@@ -23,3 +25,241 @@
         text-decoration: none;
         font-size: .9375rem;
         font-weight: bold; }
+
+.body-inicio {
+  background-color: #f4e7d4; }
+
+.conteiner-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+  .conteiner-logo .logo-inicio {
+    width: 14rem;
+    height: 14rem; }
+
+.nav-inicio {
+  margin-top: 0.5rem; }
+  .nav-inicio .lista-uno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 4rem; }
+    .nav-inicio .lista-uno li {
+      list-style: none; }
+    .nav-inicio .lista-uno li a {
+      text-decoration: none;
+      font-size: 1.5rem; }
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1rem;
+  background-color: #f4e7d4; }
+
+.nav-links {
+  color: black; }
+
+h1 {
+  text-align: center;
+  padding-top: 4rem; }
+
+p {
+  text-align: center; }
+
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 3.125rem;
+  margin-top: 3rem; }
+  .section-1 .boton-inicio {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .section-1 .boton-inicio .button {
+      border-radius: 3.125rem;
+      width: 12.5rem;
+      background-color: #c2b6a4; }
+      .section-1 .boton-inicio .button .button-a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Cinzel';
+        font-weight: bold; }
+  .section-1 .texto-inicio p {
+    font-size: 1rem;
+    font-weight: bold; }
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 6rem; }
+  .section-2 .button {
+    border-radius: 3.125rem;
+    width: 15rem;
+    background-color: #c2b6a4; }
+    .section-2 .button .button-a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Cinzel'; }
+
+.div-inicio {
+  margin-top: 6rem; }
+  .div-inicio h3 {
+    text-align: center; }
+  .div-inicio .section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 3.125rem;
+    margin-top: 3rem; }
+    .div-inicio .section-3 .boton-inicio {
+      display: flex;
+      justify-content: center;
+      align-content: center; }
+      .div-inicio .section-3 .boton-inicio .button {
+        border-radius: 3.125rem;
+        width: 12.5rem;
+        background-color: #c2b6a4; }
+        .div-inicio .section-3 .boton-inicio .button .button-a {
+          text-decoration: none;
+          color: black;
+          font-family: 'Cinzel';
+          font-weight: bold; }
+    .div-inicio .section-3 .texto-inicio p {
+      font-size: 1rem;
+      font-weight: bold; }
+
+.section-4 {
+  margin-top: 6rem;
+  background-color: #c2b6a4;
+  width: 100%; }
+  .section-4 .redes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 0.63rem; }
+    .section-4 .redes .whats-app img {
+      width: 3.125rem;
+      height: 3.125rem;
+      margin-top: 0.3rem; }
+    .section-4 .redes .insta-gram img {
+      width: 3.125rem;
+      height: 3.125rem;
+      margin-top: 0.3rem; }
+    .section-4 .redes .face-book img {
+      width: 3.125rem;
+      height: 3.125rem;
+      margin-top: 0.3rem; }
+  .section-4 .derechos-inicio {
+    margin-top: 1rem; }
+    .section-4 .derechos-inicio .copy-inicio {
+      color: black; }
+
+.body-nosotros {
+  background-image: url(fondo.jpg); }
+
+.nav-tabs .nav-item .nav-link {
+  color: black;
+  font-weight: bold;
+  font-family: 'cinzel';
+  font-size: 1.2rem; }
+
+.ubi-nosotros .nosotros-txt {
+  margin-top: 2rem; }
+
+.ubi-nosotros .txt-nosotros {
+  margin-top: 5rem; }
+  .ubi-nosotros .txt-nosotros .txt-nosotros .letra-1 {
+    font-family: 'neuton'; }
+
+.ubi-nosotros .mapa-nosotros {
+  display: flex;
+  justify-content: center; }
+
+.ubi-nosotros .mapa-nosotros {
+  display: flex;
+  justify-content: center; }
+
+.ubi-nosotros .horarios-nos {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.ubi-nosotros .horarios-nosotros {
+  margin-top: 8rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.ubi-nosotros .txt-nosotros1 {
+  margin-top: 2rem; }
+
+.ubi-nosotros .compra-uno {
+  margin-top: 3rem;
+  font-family: 'Roboto';
+  font-weight: bold; }
+
+.barra-tips {
+  margin-top: 3rem; }
+
+.uno-tips {
+  font-family: 'cinzel';
+  margin-bottom: 3.8rem; }
+
+.section-tips .txt-tips {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'cinzel';
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 4rem; }
+
+.section-tips .p-tips {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2.5rem;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: bold; }
+
+.form-uno {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem; }
+  .form-uno .form-dos {
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+
+.boton-contacto {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3rem; }
+  .boton-contacto .boton-init {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 14rem;
+    background-color: #c2b6a4; }
+    .boton-contacto .boton-init .button-contacto {
+      text-decoration: none;
+      margin-top: 0.5rem;
+      font-family: 'Cinzel';
+      font-weight: bold;
+      color: black; }

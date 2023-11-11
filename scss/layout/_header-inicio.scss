@@ -1,0 +1,38 @@
+.conteiner-logo{  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+.logo-inicio{
+    width: 14rem;
+    height: 14rem;
+}
+}
+
+.nav-inicio{
+    margin-top: 0.5rem;
+.lista-uno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 4rem;
+    li{ 
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+}
+}
+
+.nav-tabs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    background-color: #f4e7d4 ;
+}
+.nav-links{
+    color: black;
+}

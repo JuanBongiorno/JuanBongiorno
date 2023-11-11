@@ -1,0 +1,32 @@
+.section-4{
+    margin-top: 6rem;
+    background-color:  #c2b6a4;
+    width: 100%;
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 0.63rem;
+        .whats-app img{
+        width: 3.125rem;
+        height: 3.125rem;
+        margin-top: 0.3rem;
+        }
+        .insta-gram img{
+            width: 3.125rem;
+            height: 3.125rem;
+            margin-top: 0.3rem;
+            }
+            .face-book img{
+                width: 3.125rem;
+                height: 3.125rem;
+                margin-top: 0.3rem;
+                }
+    }
+    .derechos-inicio{
+        margin-top: 1rem;
+        .copy-inicio{
+            color: rgb(0, 0, 0);
+        }
+}
+}

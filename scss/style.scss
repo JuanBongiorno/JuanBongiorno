@@ -1,5 +1,21 @@
+@import "./utilities/variables";
+
 @import "./base/reset";
+@import "./base/typo";
 
 
 
 @import "./layout/body-index";
+
+@import "./layout/body-inicio";
+@import "./layout/header-inicio";
+@import "./layout/main-inicio";
+@import "./layout/footer-inicio";
+
+@import "./layout/body-nosotros";
+@import "./layout/header-nosotros";
+@import "./layout/main-nosotros";
+
+@import "./layout/main-tips";
+
+@import "./layout/main-contactos";
