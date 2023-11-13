@@ -1,0 +1,35 @@
+.conteiner-productos{
+    margin-top: 4rem;
+    .init-productos{
+        font-size: 2rem;
+    }
+}
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 3.125rem;
+    margin-top: 3rem;
+    .boton-inicio{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .button{
+            border-radius: 3.125rem;
+            width: 12.5rem;
+            background-color: #c2b6a4;
+            .button-a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Cinzel';
+                font-weight: bold;
+            }
+        }
+    }
+    .texto-inicio p{
+            font-size: 1rem;
+            font-weight: bold;
+        
+    }
+}
