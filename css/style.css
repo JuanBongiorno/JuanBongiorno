@@ -7,35 +7,84 @@
 
 .conteiner-body {
   background-color: #f4e7d4; }
-  .conteiner-body .foto-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem; }
-  .conteiner-body .conteiner-boton {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .conteiner-body .conteiner-boton .boton-inicio {
-      width: 16rem;
-      height: 3rem;
-      border-radius: 4.375rem; }
-      .conteiner-body .conteiner-boton .boton-inicio .conocenos {
-        list-style: none;
-        text-decoration: none;
-        font-size: .9375rem;
-        font-weight: bold; }
+
+.conteiner-index .foto-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; }
+
+.conteiner-index .conteiner-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .conteiner-index .conteiner-boton .boton-inicio {
+    width: 16rem;
+    height: 3rem;
+    border-radius: 4.375rem;
+    background-color: #c2b6a4;
+    box-shadow: 0.5rem 0.5rem 1rem; }
+    .conteiner-index .conteiner-boton .boton-inicio .conocenos {
+      list-style: none;
+      text-decoration: none;
+      font-size: .9375rem;
+      font-weight: bold; }
 
 .body-inicio {
   background-color: #f4e7d4; }
 
-.conteiner-logo {
+header .conteiner-logo {
   display: flex;
   justify-content: center;
   align-content: center; }
-  .conteiner-logo .logo-inicio {
+  header .conteiner-logo .logo-inicio {
     width: 14rem;
     height: 14rem; }
+  header .conteiner-logo .conteiner-logo {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    header .conteiner-logo .conteiner-logo .logo-inicio {
+      width: 14rem;
+      height: 14rem; }
+    header .conteiner-logo .conteiner-logo .rotate-center {
+      -webkit-animation: rotate-center 0.6s ease-in-out both;
+      animation: rotate-center 0.6s ease-in-out both; }
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+  header .conteiner-logo .rotate-center {
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both; }
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 .nav-inicio {
   margin-top: 0.5rem; }
@@ -73,8 +122,12 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 3.125rem;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  gap: 3.125rem; }
+  .section-1 .card-inicio .img-inicio {
+    box-shadow: .2rem 0.2rem 1rem; }
+  .section-1 .card-inicio .img-inicio:hover {
+    transform: translate(-30px, -25px); }
   .section-1 .boton-inicio {
     display: flex;
     justify-content: center;
@@ -82,29 +135,35 @@ p {
     .section-1 .boton-inicio .button {
       border-radius: 3.125rem;
       width: 12.5rem;
-      background-color: #c2b6a4; }
+      background-color: #c2b6a4;
+      box-shadow: 0.5rem 0.5rem 1rem; }
       .section-1 .boton-inicio .button .button-a {
         text-decoration: none;
         color: black;
         font-family: 'Cinzel';
         font-weight: bold; }
   .section-1 .texto-inicio p {
+    margin-top: 1rem;
     font-size: 1rem;
     font-weight: bold; }
 
 .section-2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  margin-top: 3rem;
   margin-top: 6rem; }
   .section-2 .button {
     border-radius: 3.125rem;
     width: 15rem;
-    background-color: #c2b6a4; }
+    background-color: #c2b6a4;
+    box-shadow: 0.5rem 0.5rem 1rem; }
     .section-2 .button .button-a {
       text-decoration: none;
       color: black;
-      font-family: 'Cinzel'; }
+      font-family: 'Cinzel';
+      font-weight: bold; }
 
 .div-inicio {
   margin-top: 6rem; }
@@ -115,8 +174,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 3.125rem;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    gap: 3.125rem; }
     .div-inicio .section-3 .boton-inicio {
       display: flex;
       justify-content: center;
@@ -124,7 +183,8 @@ p {
       .div-inicio .section-3 .boton-inicio .button {
         border-radius: 3.125rem;
         width: 12.5rem;
-        background-color: #c2b6a4; }
+        background-color: #c2b6a4;
+        box-shadow: 0.5rem 0.5rem 1rem; }
         .div-inicio .section-3 .boton-inicio .button .button-a {
           text-decoration: none;
           color: black;
@@ -161,7 +221,7 @@ p {
       color: black; }
 
 .body-nosotros {
-  background-image: url(fondo.jpg); }
+  background-color: #f4e7d4; }
 
 .nav-tabs .nav-item .nav-link {
   color: black;
@@ -171,11 +231,20 @@ p {
 
 .ubi-nosotros .nosotros-txt {
   margin-top: 2rem; }
+  .ubi-nosotros .nosotros-txt .letra-1 {
+    font-family: 'Cinzel';
+    font-weight: bold; }
+  .ubi-nosotros .nosotros-txt .letra-2 {
+    font-family: 'Cinzel';
+    font-weight: bold;
+    text-decoration: none; }
 
 .ubi-nosotros .txt-nosotros {
   margin-top: 5rem; }
-  .ubi-nosotros .txt-nosotros .txt-nosotros .letra-1 {
-    font-family: 'neuton'; }
+  .ubi-nosotros .txt-nosotros .letra-1 {
+    font-family: 'Cinzel';
+    font-weight: bold;
+    text-decoration: underline; }
 
 .ubi-nosotros .mapa-nosotros {
   display: flex;
@@ -187,7 +256,7 @@ p {
 
 .ubi-nosotros .horarios-nos {
   margin-top: 4rem;
-  font-size: 1.5rem;
+  font-size: 2.9rem;
   display: flex;
   justify-content: center;
   align-content: center; }
@@ -203,9 +272,12 @@ p {
   margin-top: 2rem; }
 
 .ubi-nosotros .compra-uno {
-  margin-top: 3rem;
-  font-family: 'Roboto';
-  font-weight: bold; }
+  font-family: 'Cinzel';
+  font-weight: bold;
+  margin-top: 3rem; }
+
+h1 {
+  font-family: 'Cinzel'; }
 
 .conteiner-productos {
   margin-top: 4rem; }
@@ -285,10 +357,22 @@ p {
     border-radius: 1rem;
     height: 3rem;
     width: 14rem;
-    background-color: #c2b6a4; }
+    background-color: #c2b6a4;
+    box-shadow: 0.5rem 0.5rem 1rem; }
     .boton-contacto .boton-init .button-contacto {
       text-decoration: none;
       margin-top: 0.5rem;
       font-family: 'Cinzel';
       font-weight: bold;
       color: black; }
+
+@media (max-width: 375px) {
+  .conteiner-body {
+    width: 100%;
+    margin-left: 5rem; } }
+
+@media (max-width: 425px) {
+  .conteiner-body .conteiner-index {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; } }

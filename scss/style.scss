@@ -1,4 +1,8 @@
+
 @import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
 
 @import "./base/reset";
 @import "./base/typo";
@@ -6,6 +10,7 @@
 
 
 @import "./layout/body-index";
+@import "./layout/main-index";
 
 @import "./layout/body-inicio";
 @import "./layout/header-inicio";
@@ -21,3 +26,9 @@
 @import "./layout/main-tips";
 
 @import "./layout/main-contactos";
+
+@import "./layout/media/media-320";
+@import "./layout/media/media-375";
+@import "./layout/media/media-425";
+@import "./layout/media/media-768";
+@import "./layout/media/media-1024";

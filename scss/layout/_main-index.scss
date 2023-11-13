@@ -1,0 +1,26 @@
+.conteiner-index{
+    .foto-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .conteiner-boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .boton-inicio{
+            width: 16rem;
+            height: 3rem;
+            border-radius: 4.375rem;
+            background-color:  #c2b6a4;
+            box-shadow: 0.5rem 0.5rem 1rem;
+            .conocenos{
+                list-style: none;
+                text-decoration: none;
+                font-size: .9375rem;
+                font-weight: bold;
+            }
+        }
+    }
+}

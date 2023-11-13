@@ -6,12 +6,16 @@ p{
     text-align: center;
 }
 .section-1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    @include flex;
     gap: 3.125rem;
-    margin-top: 3rem;
+    .card-inicio{
+        .img-inicio{
+        box-shadow: .2rem 0.2rem 1rem;
+        }
+        .img-inicio:hover{
+        transform: translate(-30px, -25px);
+        }
+    }
     .boton-inicio{
         display: flex;
         justify-content: center;
@@ -20,6 +24,7 @@ p{
             border-radius: 3.125rem;
             width: 12.5rem;
             background-color: #c2b6a4;
+            box-shadow: 0.5rem 0.5rem 1rem;
             .button-a{
                 text-decoration: none;
                 color: black;
@@ -29,24 +34,25 @@ p{
         }
     }
     .texto-inicio p{
+            margin-top: 1rem;
             font-size: 1rem;
             font-weight: bold;
         
     }
 }
 .section-2{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    @include flex;
     margin-top: 6rem;
     .button{
         border-radius: 3.125rem;
         width: 15rem;
         background-color: #c2b6a4;
+        box-shadow: 0.5rem 0.5rem 1rem;
         .button-a{
             text-decoration: none;
             color: black;
             font-family: 'Cinzel';
+            font-weight: bold;
         }
     }
 }
@@ -56,12 +62,8 @@ p{
     text-align: center;
     }
 .section-3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    @include flex;
     gap: 3.125rem;
-    margin-top: 3rem;
         .boton-inicio{
             display: flex;
             justify-content: center;
@@ -70,6 +72,7 @@ p{
                 border-radius: 3.125rem;
                 width: 12.5rem;
                 background-color: #c2b6a4;
+                box-shadow: 0.5rem 0.5rem 1rem;
                 .button-a{
                     text-decoration: none;
                     color: black;

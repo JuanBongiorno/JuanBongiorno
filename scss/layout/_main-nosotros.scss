@@ -1,11 +1,19 @@
 .ubi-nosotros{
     .nosotros-txt{
         margin-top: 2rem;
+        .letra-1{
+            @include font;
+        }
+        .letra-2{
+            @include font;
+            text-decoration: none;
+        }
     }
     .txt-nosotros{
         margin-top: 5rem;
-        .txt-nosotros .letra-1{
-            font-family: 'neuton';
+        .letra-1{
+            @include font;
+            text-decoration: underline;
         }
     }
     .mapa-nosotros{
@@ -18,7 +26,7 @@
     }
     .horarios-nos{
         margin-top: 4rem;
-        font-size: 1.5rem;
+        font-size: 2.9rem;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -34,8 +42,7 @@
         margin-top: 2rem;
     }
     .compra-uno{
+        @include font;
         margin-top: 3rem;
-        font-family: 'Roboto';
-        font-weight: bold;
     }
 }

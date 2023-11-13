@@ -1,0 +1,12 @@
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+@mixin font{
+    font-family: 'Cinzel';
+    font-weight: bold;
+}
