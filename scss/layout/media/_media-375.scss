@@ -1,6 +1,14 @@
 @media (max-width: 375px){
     .conteiner-body{
-        width: 100%;
-        margin-left: 5rem;
+        .conteiner-index{
+            .foto-logo{
+                margin-left: 11rem;
+            }
+            .conteiner-boton{
+                margin-left: 9.5rem;
+                width: 16rem;
+            }
+        }
+        }
     }
-}
+    
