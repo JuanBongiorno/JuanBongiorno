@@ -157,7 +157,7 @@ p {
     border-radius: 3.125rem;
     width: 15rem;
     background-color: #c2b6a4;
-    box-shadow: 0.5rem 0.5rem 1rem; }
+    box-shadow: 0.5rem 0.5rem 1rem black; }
     .section-2 .button .button-a {
       text-decoration: none;
       color: black;
@@ -183,7 +183,7 @@ p {
         border-radius: 3.125rem;
         width: 12.5rem;
         background-color: #c2b6a4;
-        box-shadow: 0.5rem 0.5rem 1rem; }
+        box-shadow: 0.5rem 0.5rem 1rem black; }
         .div-inicio .section-3 .boton-inicio .button .button-a {
           text-decoration: none;
           color: black;
@@ -365,16 +365,21 @@ h1 {
       font-weight: bold;
       color: black; }
 
-@media (max-width: 375px) {
-  .conteiner-body .conteiner-index .foto-logo {
-    margin-left: 11rem; }
-  .conteiner-body .conteiner-index .conteiner-boton {
-    margin-left: 9.5rem;
-    width: 16rem; } }
-
 @media (max-width: 425px) {
   .conteiner-body .conteiner-index .foto-logo {
-    margin-left: 16.3rem; }
+    margin-left: 21rem; }
   .conteiner-body .conteiner-index .conteiner-boton {
-    margin-left: 13.5rem;
+    margin-left: 16rem;
     width: 16rem; } }
+
+@media (max-width: 375px) {
+  .conteiner-body .conteiner-index .foto-logo {
+    margin-left: 25rem; }
+  .conteiner-body .conteiner-index .conteiner-boton {
+    margin-left: 17rem; } }
+
+@media (max-width: 320px) {
+  .conteiner-body .conteiner-index .foto-logo {
+    margin-left: 25rem; }
+  .conteiner-body .conteiner-index .conteiner-boton {
+    margin-left: 17rem; } }
